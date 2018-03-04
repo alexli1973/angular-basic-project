@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Admin"
+    }
+  ],
+  "cars": [
+    {
+      "name": "Mersedes",
+      "model": "xs",
+      "id": 1
+    },
+    {
+      "name": "BRIDGE",
+      "model": "d",
+      "id": 2
+    },
+    {
+      "name": "hhhb",
+      "model": "pp",
+      "id": 3
+    },
+    {
+      "name": "Sofa",
+      "model": "dffff",
+      "id": 4
+    },
+    {
+      "name": "wewewertrtr",
+      "model": "trtrtr",
+      "id": 5
+    },
+    {
+      "name": "tytytycvcv",
+      "model": "vcvvcv",
+      "id": 6
+    },
+    {
+      "name": "new1234455",
+      "model": "12345",
+      "id": 7
+    }
+  ]
+}

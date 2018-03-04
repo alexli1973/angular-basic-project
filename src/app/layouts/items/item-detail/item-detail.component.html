@@ -1,0 +1,9 @@
+<p>
+  {{car.name}}
+</p>
+<form [formGroup] = "form" (ngSubmit)="saveForm()">
+<div class="form-group">
+  <input type="text" class="form-control" [(ngModel)]="car.name" name="name">
+</div>
+
+</form>

@@ -1,0 +1,17 @@
+<form [formGroup] = "form" (ngSubmit)="saveForm()">
+  <div class="form-group">
+    <label for="name">Car</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+  </div>
+  <div class="alert"
+       *ngIf="form.controls['name'].invalid && form.controls['name'].touched">Field name can not be empty
+  </div>
+  <div class="form-group">
+    <label for="model">Model</label>
+    <input type="text" class="form-control" id="model" formControlName="model">
+  </div>
+  <div class="alert"
+       *ngIf="form.controls['model'].invalid && form.controls['model'].touched">Field model can not be empty
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Add</button>
+</form>
